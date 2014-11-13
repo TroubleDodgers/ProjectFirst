@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgtwo"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose yours interests"
+        android:textSize="25px" />
+
+    <RadioGroup
+        android:id="@+id/filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" >
+
+        <RadioButton
+            android:id="@+id/btntheater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Theater" />
+
+        <RadioButton
+            android:id="@+id/btncinema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cinema" />
+
+        <RadioButton
+            android:id="@+id/btnmusconc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music concerts" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calendar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.11" >
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:text="Accept" />
+
+    </RelativeLayout>
+
+</LinearLayout>
