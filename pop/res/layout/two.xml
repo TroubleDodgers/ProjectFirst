@@ -11,33 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Choose yours interests"
-        android:textSize="25px" />
-
-    <RadioGroup
-        android:id="@+id/filter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left" >
-
-        <RadioButton
-            android:id="@+id/btntheater"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Theater" />
-
-        <RadioButton
-            android:id="@+id/btncinema"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cinema" />
-
-        <RadioButton
-            android:id="@+id/btnmusconc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Music concerts" />
-    </RadioGroup>
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btnCalendar"
@@ -60,6 +34,34 @@
             android:layout_marginBottom="15dp"
             android:text="Accept" />
 
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/btnAccept" >
+
+            <CheckBox
+                android:id="@+id/theaterCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Theater" />
+
+            <CheckBox
+                android:id="@+id/cinemaCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cinema" />
+
+            <CheckBox
+                android:id="@+id/concertCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concerts" />
+
+        </TableLayout>
     </RelativeLayout>
 
 </LinearLayout>
