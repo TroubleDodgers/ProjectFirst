@@ -858,10 +858,12 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070005;
+        public static final int abc_search_url_text_holo=0x7f070007;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int azureColor=0x7f070005;
+        public static final int goldColor=0x7f070006;
         public static final int greenColor=0x7f070004;
         public static final int yellowColor=0x7f070003;
     }
@@ -1079,9 +1081,12 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
-        public static final int imgone=0x7f020058;
-        public static final int imgtwo=0x7f020059;
+        public static final int checkboxs=0x7f020057;
+        public static final int ic_launcher=0x7f020058;
+        public static final int imgone=0x7f020059;
+        public static final int imgtwo=0x7f02005a;
+        public static final int testbuttons=0x7f02005b;
+        public static final int welcomebutt=0x7f02005c;
     }
     public static final class id {
         public static final int Gotomenu=0x7f05003d;

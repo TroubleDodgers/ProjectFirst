@@ -2,4 +2,6 @@
 <resources>
     <color name="yellowColor">#FFFF00</color>
     <color name="greenColor">#FF00FF00</color>
+    <color name="azureColor">#F0FFFF</color>
+    <color name ="goldColor">#FFFFE0</color>
 </resources>

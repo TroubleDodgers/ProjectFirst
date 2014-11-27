@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@drawable/testbuttons"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/imgtwo"
@@ -15,10 +16,12 @@
 
     <Button
         android:id="@+id/btnCalendar"
-        android:layout_width="wrap_content"
+        android:layout_width="123dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Calendar" />
+        android:background="@drawable/testbuttons"
+        android:text="Calendar"
+        android:textSize="15dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,19 +30,19 @@
 
         <Button
             android:id="@+id/btnAccept"
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="15dp"
+            android:background="@drawable/testbuttons"
             android:text="Accept" />
 
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="22dp"
             android:layout_toLeftOf="@+id/btnAccept" >
 
             <CheckBox
@@ -47,21 +50,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:button="@drawable/checkboxs"
+                android:paddingBottom="10dp"
                 android:text="Theater" />
 
             <CheckBox
                 android:id="@+id/cinemaCheck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:button="@drawable/checkboxs"
+                android:paddingBottom="10dp"
                 android:text="Cinema" />
 
             <CheckBox
                 android:id="@+id/concertCheck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:button="@drawable/checkboxs"
                 android:text="Concerts" />
-
         </TableLayout>
+
     </RelativeLayout>
 
 </LinearLayout>
