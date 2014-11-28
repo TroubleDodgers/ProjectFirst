@@ -125,8 +125,8 @@ int color abc_search_url_text_normal 0x7f070000
 int color abc_search_url_text_pressed 0x7f070002
 int color abc_search_url_text_selected 0x7f070001
 int color azureColor 0x7f070005
+int color blackColor 0x7f070004
 int color goldColor 0x7f070006
-int color greenColor 0x7f070004
 int color yellowColor 0x7f070003
 int dimen abc_action_bar_default_height 0x7f080002
 int dimen abc_action_bar_icon_vertical_padding 0x7f080003
@@ -260,12 +260,11 @@ int id action_settings 0x7f050045
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
-int id btnAccept 0x7f050041
-int id btnCalendar 0x7f050040
+int id btnAccept 0x7f050040
 int id checkbox 0x7f05002d
-int id cinemaCheck 0x7f050043
+int id cinemaCheck 0x7f050042
 int id collapseActionView 0x7f05000d
-int id concertCheck 0x7f050044
+int id concertCheck 0x7f050043
 int id default_activity_button 0x7f050028
 int id dialog 0x7f05000e
 int id disableHome 0x7f050008
@@ -282,7 +281,7 @@ int id ifRoom 0x7f05000a
 int id image 0x7f050027
 int id listMode 0x7f050001
 int id list_item 0x7f050029
-int id mainmenu 0x7f05003f
+int id mainmenu 0x7f050044
 int id middle 0x7f050012
 int id never 0x7f050009
 int id none 0x7f050010
@@ -307,11 +306,12 @@ int id showTitle 0x7f050006
 int id split_action_bar 0x7f05001e
 int id submit_area 0x7f050039
 int id tabMode 0x7f050002
-int id theaterCheck 0x7f050042
+int id theaterCheck 0x7f050041
 int id title 0x7f05002b
 int id top_action_bar 0x7f050020
 int id up 0x7f050021
 int id useLogo 0x7f050003
+int id webView1 0x7f05003f
 int id withText 0x7f05000c
 int id wlcm 0x7f05003c
 int integer abc_max_action_buttons 0x7f090000
@@ -360,8 +360,6 @@ int string abc_shareactionprovider_share_with_application 0x7f0a000b
 int string action_settings 0x7f0a000f
 int string app_name 0x7f0a000d
 int string hello_world 0x7f0a000e
-int style AppBaseTheme 0x7f0b008b
-int style AppTheme 0x7f0b008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0063
 int style TextAppearance_AppCompat_Base_SearchResult 0x7f0b006d
 int style TextAppearance_AppCompat_Base_SearchResult_Subtitle 0x7f0b006f

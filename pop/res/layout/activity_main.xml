@@ -17,6 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
         android:text="Welcome!"
+        android:textColor="@color/blackColor"
         android:textSize="40sp"
         android:textStyle="italic" />
 
@@ -30,6 +31,7 @@
         android:layout_marginBottom="94dp"
         android:background="@drawable/welcomebutt"
         android:enabled="true"
-        android:text="Go to menu" />
+        android:text="Go to menu"
+        android:textColor="@color/blackColor" />
 
 </RelativeLayout>
