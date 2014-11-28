@@ -1105,11 +1105,15 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
+<<<<<<< HEAD
         public static final int btnAccept=0x7f050041;
+=======
+        public static final int btnAccept=0x7f050040;
+>>>>>>> origin/master
         public static final int checkbox=0x7f05002d;
-        public static final int cinemaCheck=0x7f050043;
+        public static final int cinemaCheck=0x7f050042;
         public static final int collapseActionView=0x7f05000d;
-        public static final int concertCheck=0x7f050044;
+        public static final int concertCheck=0x7f050043;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
@@ -1127,7 +1131,11 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
+<<<<<<< HEAD
         public static final int mainmenu=0x7f050045;
+=======
+        public static final int mainmenu=0x7f050044;
+>>>>>>> origin/master
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
@@ -1153,11 +1161,12 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-        public static final int theaterCheck=0x7f050042;
+        public static final int theaterCheck=0x7f050041;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
+        public static final int webView1=0x7f05003f;
         public static final int withText=0x7f05000c;
         public static final int wlcm=0x7f05003c;
     }
