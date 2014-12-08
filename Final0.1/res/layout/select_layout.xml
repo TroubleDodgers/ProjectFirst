@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@drawable/testbuttons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgtwo"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp" >
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/testbuttons"
+            android:text="Accept"
+            android:textColor="@color/blackColor" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="68dp"
+            android:layout_toLeftOf="@+id/btnAccept" >
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/mainmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Choose the category"
+            android:textColor="@color/blackColor"
+            android:textSize="25sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tableLayout1" >
+
+            <RadioButton
+                android:id="@+id/estrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Estrada"
+                android:textColor="@color/blackColor" />
+
+            <RadioButton
+                android:id="@+id/rock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rock"
+                android:textColor="@color/blackColor" />
+
+            <RadioButton
+                android:id="@+id/balet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balet"
+                android:textColor="@color/blackColor" />
+
+            <RadioButton
+                android:id="@+id/spectacles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spectacles"
+                android:textColor="@color/blackColor" />
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
