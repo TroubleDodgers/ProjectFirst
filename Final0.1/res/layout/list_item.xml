@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     
+
+    <ImageView
+        android:id="@+id/ivImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:textColor="@color/blackColor"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10dip"
+        android:textColor="@color/blackColor"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10dip"
+        android:textColor="@color/blackColor"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/tvAddress"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="30"
+	        android:padding="10dip"
+	        android:textColor="@color/blackColor"
+	        android:textSize="16dip"
+	        android:textStyle="bold" />
+
+	    <Button
+	        android:id="@+id/bMap"
+	        android:layout_width="270dp"
+	        android:layout_height="50dp"
+	        android:layout_weight="70"
+	        android:background="@drawable/resultbuttons"
+	        android:text="Map"
+	        android:textColor="@color/blackColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    <TextView
+	        android:id="@+id/tvPrice"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="30"
+	        android:padding="10dip"
+	        android:textColor="@color/blackColor"
+	        android:textSize="16dip"
+	        android:textStyle="bold" />
+
+	    <Button
+	        android:id="@+id/bOrder"
+	        style="@drawable/resultbuttons"
+	        android:layout_width="270dp"
+	        android:layout_height="50dp"
+	        android:layout_weight="70"
+	        android:background="@drawable/resultbuttons"
+	        android:text="Order"
+	        android:textColor="@color/blackColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bShare"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@drawable/resultbuttons"
+            android:text="Share"
+            android:textColor="@color/blackColor" />
+
+    </LinearLayout>
+ 
+</LinearLayout>
